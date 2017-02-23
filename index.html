@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" lang="hu">
+	<meta http-equiv="X-UA-Compatibile" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MIR creative</title>
+    <!--------------------  CSS   --------------->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css" >
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" >
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+    <!----------------- google fonts ------------>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-----------------   js    ----------------->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script type="text/javascript" src="lightbox.js"></script>
+    <script src="jquery-ui.js"></script>
+    <!-----------------  script ----------------->
+	<script type="text/javascript">
+		$(document).ready(function() {
+    $('#fullpage').fullpage({
+    		css3: false,
+    		anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
+    		scrollingSpeed: 1000,
+        afterRender: function(){
+
+
+					//playing the video
+					$('video').get(0).play();
+				}
+    	});
+	});
+	</script>
+</head>
+    
+<body>	
+    <!-----------------  navigation ----------------->
+	<ul id="myMenu">
+	    <li><a class="nav1" href="#firstPage"><span>HOME</span></a></li>
+        <li><a class="nav2" href="#secondPage"><span>SERVICES</span></a></li>
+        <li><a class="nav3" href="#thirdPage"><span>CREW</span></a></li>
+        <li><a class="nav4" href="#fourthPage"><span>WORK</span></a></li>
+        <li><a class="nav5" href="#fifthPage"><span>CONTACT</span></a></li>
+	</ul>
+    <!--------------------  body -------------------->
+<div id="fullpage">
+    <!-------------------  sections ----------------->
+	    <div class="section" id="section0" data-anchor="firstPage"><!-- FIRST SECTION -->
+	    	<div class="wrapper">
+                <video preload="true" autoplay loop muted data-autoplay>
+                    <source src="video/MIR_Web_Video_v2_1920x1200.mp4" type="video/mp4">
+                </video>
+                <div class="logo-section">
+                    <img class="logo" height="60"  src="images/logoMIR.png"/>
+                    <div class="logo-text">CREATIVE DIGITAL AGENCY</div>
+                    <a href="#fifthPage"><img class="message" src="images/bubble.png"></a>
+                </div>
+                <h1 class="heading1">We build brands, and create digital experience.</h1>
+                <div class="clients">
+                    <div class="clients-text">CLIENTS WE'VE BEEN WORKING FOR:</div>
+                    <div class="client-logos">
+                        <img class="image" src="images/logos/budapestbank.png">
+                        <img class="image" src="images/logos/loreal.png">
+                        <img class="image" sizes="6vw" src="images/logos/Layer-7.png">
+                        <img class="image" src="images/logos/nokia.png">
+                        <img class="image" src="images/logos/tesco.png">
+                        <img class="image" src="images/logos/samsung.png">
+                        <img class="image" src="images/logos/kraft.png">
+                    </div>
+                </div>
+                <a class="arrow w-inline-block" href="#secondPage"></a>
+            </div>
+	    </div><!-- FIRST SECTION END -->
+
+	    <div class="section" id="section1" data-anchor="secondPage"><!-- SECOND SECTION -->
+            <div class="wrapper-services">
+                <div class="spaceship">
+                    
+                      <div id="part1"><!-- SPACESHIP PART 1 -->
+                          <img src="images/part1.png">
+                      </div>
+                      <div id="part2"><!-- SPACESHIP PART 2 -->
+                          <img src="images/part2.png">
+                      </div>
+                      <div id="part3"><!-- SPACESHIP PART 3 -->
+                          <img src="images/part3.png">
+                      </div>
+                      <div id="part4"><!-- SPACESHIP PART 4 -->
+                          <img src="images/part4.png">
+                      </div>
+                </div>
+                
+                <ul class="right-side">
+                    <li class="right-menu" id="rc-1" rel="rec-1"><a href="#">CONSULTATION</a></li>
+                    <li class="right-menu" id="rc-2" rel="rec-2"><a href="#">DIGITAL</a></li>
+                    <li class="right-menu" id="rc-3" rel="rec-3"><a href="#">CREATIVE</a></li>
+                    <li class="right-menu" id="rc-4" rel="rec-4"><a href="#">MEDIA</a></li>
+                </ul>
+                <div class="rectangle active" id="rec-1"><!-- SERVICE INFO -->
+                        <p>Mint beruhazasra tekintunk illetve a hasznot tartjuk szem elott</p>
+                        <p>Média modulunk az adott szolgaltatashoz vagy termekhez illeszthető optimalis kommunikacios
+                            terv illetve kampány összeállításában és megvalosotasaban áll rendelekezésre.</p>
+                        <p>A megterules szamunkra a legfontosabb szempont </p>
+                        <p><b>MEDIA SERVICES:</b></p>
+                        <ul><li>SEO</li><li>SEM (Adwords...)</li><li>Facebook</li><li>Pr</li><li>eDM</li><li>Tv</li><li>Radio</li><li>Outdoor</li></ul>
+                    </div>
+                <div class="rectangle" id="rec-2"><!-- SERVICE INFO -->
+                        <p>Mint beruhazasra tekintunk illetve a hasznot tartjuk szem elott</p>
+                        <p>Média modulunk az adott szolgaltatashoz vagy termekhez illeszthető optimalis kommunikacios
+                            terv illetve kampány összeállításában és megvalosotasaban áll rendelekezésre.</p>
+                        <p>A megterules szamunkra a legfontosabb szempont </p>
+                        <p><b>MEDIA SERVICES:</b></p>
+                        <ul><li>SEO</li><li>SEM (Adwords...)</li><li>Facebook</li><li>Pr</li><li>eDM</li><li>Tv</li><li>Radio</li><li>Outdoor</li></ul>
+                    </div>
+                <div class="rectangle" id="rec-3"><!-- SERVICE INFO -->
+                        <p>Mint beruhazasra tekintunk illetve a hasznot tartjuk szem elott</p>
+                        <p>Média modulunk az adott szolgaltatashoz vagy termekhez illeszthető optimalis kommunikacios
+                            terv illetve kampány összeállításában és megvalosotasaban áll rendelekezésre.</p>
+                        <p>A megterules szamunkra a legfontosabb szempont </p>
+                        <p><b>MEDIA SERVICES:</b></p>
+                        <ul><li>SEO</li><li>SEM (Adwords...)</li><li>Facebook</li><li>Pr</li><li>eDM</li><li>Tv</li><li>Radio</li><li>Outdoor</li></ul>
+                    </div>
+                <div class="rectangle" id="rec-4"><!-- SERVICE INFO -->
+                        <p>Mint beruhazasra tekintunk illetve a hasznot tartjuk szem elott</p>
+                        <p>Média modulunk az adott szolgaltatashoz vagy termekhez illeszthető optimalis kommunikacios
+                            terv illetve kampány összeállításában és megvalosotasaban áll rendelekezésre.</p>
+                        <p>A megterules szamunkra a legfontosabb szempont </p>
+                        <p><b>MEDIA SERVICES:</b></p>
+                        <ul><li>SEO</li><li>SEM (Adwords...)</li><li>Facebook</li><li>Pr</li><li>eDM</li><li>Tv</li><li>Radio</li><li>Outdoor</li></ul>
+                    </div>
+                
+                <a class="arrow w-inline-block" href="#thirdPage"></a>
+            </div>
+	    </div><!-- SECOND SECTION END -->
+    
+	    <div class="section" id="section2" data-anchor="thirdPage"><!-- THIRD SECTION -->
+            <div class="wrapper-crew">
+                <div class="crew hide"></div>
+                <div class="crew">
+                    <div class="_1 crew-box">
+                     <div class="crew-name">Barnabás Trunkó</div>
+                        <div class="crew-tittle">CREATIVE</div>
+                        <div class="info1">
+                            <div>999 óta több jelentős digitális projektben vett részt, mint megvalósító, a későbbiekben mint vezető. Fő feladata a digitális termékek szinvonalas elkészitése.</div>
+                            <div id="divider">EMAIL: <a href="#">andras@mir.hu</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="crew">
+                  <div class="_2 crew-box">
+                    <div class="crew-name">László Kárpáti</div>
+                    <div class="crew-tittle">DIGITAL</div>
+                    <div class="info2">
+                      <div>999 óta több jelentős digitális projektben vett részt, mint megvalósító, a későbbiekben mint vezető. Fő feladata a digitális termékek szinvonalas elkészitése.</div>
+                      <div id="divider">EMAIL: <a href="#">andras@mir.hu</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="crew">
+                  <div class="_3 crew-box">
+                    <div class="crew-name">András Kárpáti</div>
+                    <div class="crew-tittle">CLIENT SERVICE</div>
+                    <div class="info3">
+                      <div>999 óta több jelentős digitális projektben vett részt, mint megvalósító, a későbbiekben mint vezető. Fő feladata a digitális termékek szinvonalas elkészitése.</div>
+                      <div id="divider">EMAIL: <a href="#">andras@mir.hu</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="crew">
+                  <div class="_4 crew-box">
+                    <div class="crew-name">Daniel Shenker</div>
+                    <div class="crew-tittle">NEW BUSINESS</div>
+                    <div class="info4">
+                      <div>999 óta több jelentős digitális projektben vett részt, mint megvalósító, a későbbiekben mint vezető. Fő feladata a digitális termékek szinvonalas elkészitése.</div>
+                      <div id="divider">EMAIL: <a href="#">andras@mir.hu</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="crew">
+                  <div class="_5 crew-box">
+                    <div class="crew-name">Olivér Sas</div>
+                    <div class="crew-tittle">CREATIVE</div>
+                    <div class="info5">
+                      <div>999 óta több jelentős digitális projektben vett részt, mint megvalósító, a későbbiekben mint vezető. Fő feladata a digitális termékek szinvonalas elkészitése.</div>
+                      <div id="divider">EMAIL: <a href="#">andras@mir.hu</a></div>
+                    </div>
+                  </div>
+                </div>
+                <a class="arrow w-inline-block" href="#fourthPage"></a>
+            </div>
+	    </div><!-- THIRD SECTION END-->
+    
+	    <div class="section" id="section3" data-anchor="fourthPage"><!-- FOURTH SECTION -->
+            <div class="wrapper-work">
+                <div id="tabs">
+                    <ul><!-- GALLERY NAV -->
+                        <li><a href="#tab-1">SELECTED WORKS</a></li>
+                        <li><a href="#tab-2">BRANDING</a></li>
+                        <li><a href="#tab-3">DIGITAL</a></li>
+                        <li><a href="#tab-4">MOTION</a></li>
+                    </ul><!-- GALLERY NAV END -->
+                    <div id="tab-1"><!-- SELECTED WORK -->
+                        <div class="gallery" id="tab-1">
+                        <a class="_1 img-div" href="images/1.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_2 img-div" href="images/2.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_3 img-div" href="images/3.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_4 img-div" href="images/4.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_5 img-div" href="images/5.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_6 img-div" href="images/6.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_2 img-div" href="images/2.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_3 img-div" href="images/3.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_4 img-div" href="images/4.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        </div>
+                    </div><!-- SELECTED WORK END -->
+                    <div id="tab-2"><!-- BRANDING -->
+                        <div class="gallery" id="tab-1">
+                        <a class="_2 img-div" href="images/2.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_4 img-div" href="images/4.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_2 img-div" href="images/2.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_4 img-div" href="images/4.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_2 img-div" href="images/2.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_4 img-div" href="images/4.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_2 img-div" href="images/2.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_4 img-div" href="images/4.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_2 img-div" href="images/2.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        </div>
+                    </div><!-- BRANDING END -->
+                    <div id="tab-3"><!-- DIGITAL -->
+                        <div class="gallery" id="tab-1">
+                        <a class="_1 img-div" href="images/1.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_5 img-div" href="images/5.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_3 img-div" href="images/3.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_5 img-div" href="images/5.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_1 img-div" href="images/1.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_5 img-div" href="images/5.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_1 img-div" href="images/1.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_4 img-div" href="images/4.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_1 img-div" href="images/1.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        </div>
+                    </div><!-- DIGITAL END -->
+                    <div id="tab-4"><!-- MOTION -->
+                        <div class="gallery" id="tab-1">
+                        <a class="_6 img-div" href="images/6.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_5 img-div" href="images/5.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_4 img-div" href="images/4.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_3 img-div" href="images/3.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_2 img-div" href="images/2.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_1 img-div" href="images/1.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_5 img-div" href="images/5.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_4 img-div" href="images/4.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        <a class="_3 img-div" href="images/3.png" data-lightbox="pic">
+                            <div class="over">
+                                <div class="info">Info</div>
+                            </div>
+                        </a>
+                        </div>
+                    </div><!-- MOTION END -->
+                </div>
+                <div class="work-bottom">
+                    <a class="arrow w-inline-block" href="#fifthPage"></a>
+                </div>
+            </div>
+        </div><!-- FOURTH SECTION END -->
+    
+	    <div class="section" id="section4" data-anchor="fifthPage"><!-- FIFTH SECTION -->
+            <div class="wrapper-contact">
+                <div class="contact">
+                  <div class="contact-heading">CONTACT US</div>
+                  <div class="signup-form w-form">
+                    <form class="form w-clearfix" data-name="Email Form" data-redirect="#" id="email-form" name="email-form" redirect="#">
+                      <input class="name w-input" data-name="Name 5" id="name-5" maxlength="256" name="name-5" placeholder="NAME" type="text">
+                      <input class="email w-input"  data-name="Name 2" id="Email-3" maxlength="256" name="Email-2" placeholder="EMAIL" required="required" type="email">
+                      <input class="form-subject w-input"data-name="Name 5" id="name-5" maxlength="256" name="name-5" placeholder="SUBJECT" type="text">
+                      <input class="form-message w-input" data-name="Name 5" id="name-5" maxlength="256" name="name-5" placeholder="MESSAGE" type="text">
+                      <a class="button w-clearfix w-inline-block" href="#"><img class="send" src="images/send.png"><div class="link">SEND MESSAGE</div></a>
+
+                    </form>
+                   </div>
+                </div>
+                <div class="footer">
+                    <h2 class="footer-h2">MIR. CREATIVE DIGITAL&nbsp;AGENCY</h2>
+                    <div class="footer-text">EMAIL: CREW@MIR.HU | OR CALL DANIEL SHENKER +36 70 362 5858</div>
+                </div>
+            </div>
+        </div><!-- FIFTH SECTION END -->
+
+</body>
+</html>
